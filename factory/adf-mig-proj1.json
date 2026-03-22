@@ -1,0 +1,9 @@
+{
+	"name": "adf-mig-proj1",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "506ea9c2-0ee0-4984-b11a-a76509f5d820",
+		"tenantId": "d3fc0570-6a96-48cc-80d3-0f2e06cb1019"
+	}
+}

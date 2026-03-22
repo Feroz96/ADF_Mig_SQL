@@ -1,0 +1,21 @@
+{
+	"name": "ls_sqlserver_adf",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "SAJANA\\SQLEXPRESS",
+			"database": "SALESDB",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "FerozSQL",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI0OGEyYzJmOS1mYmM2LTQ0YzEtYjEzYi05MGUzMWJhZDE4ZmMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "SelfHostedIR-1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
