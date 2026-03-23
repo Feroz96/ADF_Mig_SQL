@@ -56,12 +56,15 @@
 							"userProperties": [
 								{
 									"name": "tablename",
-									"value": "@"
+									"value": ""
+								},
+								{
+									"name": "tableschema"
 								}
 							],
 							"typeProperties": {
 								"pipeline": {
-									"referenceName": "PL_Child_Exec",
+									"referenceName": "PL_CHILD_INCREMENTAL",
 									"type": "PipelineReference"
 								},
 								"waitOnCompletion": true
