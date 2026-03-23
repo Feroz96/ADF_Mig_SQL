@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-mig-proj1"
+		},
+		"ls_sql_adls_parquet_accountKey": {
+			"value": ""
+		},
+		"ls_sqlserver_adf_password": {
+			"value": ""
+		},
+		"ls_sql_adls_parquet_properties_typeProperties_url": {
+			"value": "https://storemigadf.dfs.core.windows.net/"
+		},
+		"ls_sqlserver_adf_properties_typeProperties_server": {
+			"value": "SAJANA\\SQLEXPRESS"
+		},
+		"ls_sqlserver_adf_properties_typeProperties_database": {
+			"value": "SALESDB"
+		},
+		"ls_sqlserver_adf_properties_typeProperties_userName": {
+			"value": "FerozSQL"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
