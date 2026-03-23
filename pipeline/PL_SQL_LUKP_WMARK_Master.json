@@ -54,15 +54,7 @@
 							"policy": {
 								"secureInput": false
 							},
-							"userProperties": [
-								{
-									"name": "tablename",
-									"value": ""
-								},
-								{
-									"name": "tableschema"
-								}
-							],
+							"userProperties": [],
 							"typeProperties": {
 								"pipeline": {
 									"referenceName": "PL_CHILD_INCREMENTAL",
