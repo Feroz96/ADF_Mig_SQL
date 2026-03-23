@@ -1,5 +1,5 @@
 {
-	"name": "PL_SQL_LUKP_WMARK",
+	"name": "PL_SQL_LUKP_WMARK_Master",
 	"properties": {
 		"activities": [
 			{
@@ -44,7 +44,30 @@
 					"items": {
 						"value": "@activity('LKUP_SQLTABLE_WATRMRK_DW').output.value",
 						"type": "Expression"
-					}
+					},
+					"activities": [
+						{
+							"name": "Execute Pipeline1",
+							"type": "ExecutePipeline",
+							"dependsOn": [],
+							"policy": {
+								"secureInput": false
+							},
+							"userProperties": [
+								{
+									"name": "tablename",
+									"value": "@"
+								}
+							],
+							"typeProperties": {
+								"pipeline": {
+									"referenceName": "PL_Child_Exec",
+									"type": "PipelineReference"
+								},
+								"waitOnCompletion": true
+							}
+						}
+					]
 				}
 			}
 		],
